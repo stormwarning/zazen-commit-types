@@ -1,6 +1,6 @@
 {
   "name": "@zazen/commit-types",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Commit with emoji, free of weariness and confusion",
   "homepage": "https://github.com/stormwarning/zazen-commit-types",
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
