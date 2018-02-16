@@ -1,0 +1,50 @@
+{
+  "types": {
+    ":bomb:": {
+      "title": "Breaking change",
+      "description": "A backwards-incompatible change.",
+      "level": "major"
+    },
+    ":gift:": {
+      "title": "Features",
+      "description": "A new feature.",
+      "level": "minor"
+    },
+    ":fire:": {
+      "title": "Code removal",
+      "description": "Heavy refactoring or removal of unneeded code.",
+      "level": "minor"
+    },
+    ":memo:": {
+      "title": "Documentation",
+      "description": "Updates to documentation.",
+      "level": "patch"
+    },
+    ":art:": {
+      "title": "Visual styles",
+      "description": "User-facing changes.",
+      "level": "patch"
+    },
+    ":bug:": {
+      "title": "Fixes",
+      "description": "A bug fix.",
+      "level": "patch"
+    },
+    ":hammer:": {
+      "title": "Refactoring",
+      "description": "General code churn; no fixes or features.",
+      "level": "patch"
+    },
+    ":shirt:": {
+      "title": "Code style",
+      "description":
+        "Code formatting or updates to adhere to style convention.",
+      "level": "patch"
+    },
+    ":ambulance:": {
+      "title": "Hot-fix",
+      "description": "A critical/time-sensitive bug fix.",
+      "level": "patch"
+    }
+  }
+}
