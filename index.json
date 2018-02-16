@@ -37,8 +37,7 @@
     },
     ":shirt:": {
       "title": "Code style",
-      "description":
-        "Code formatting or updates to adhere to style convention.",
+      "description": "Code formatting or updates to adhere to style convention.",
       "level": "patch"
     },
     ":ambulance:": {

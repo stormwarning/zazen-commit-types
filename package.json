@@ -16,14 +16,26 @@
   "keywords": [],
   "license": "MIT",
   "lint-staged": {
-    "index.json": ["json -f index.json -I", "git add"],
-    "*.md": ["remark . -qo", "git add"]
+    "index.json": [
+      "json -f index.json -I",
+      "git add"
+    ],
+    "*.md": [
+      "remark . -qo",
+      "git add"
+    ]
   },
   "remarkConfig": {
     "plugins": [
       "preset-lint-markdown-style-guide",
-      ["lint-maximum-line-length", false],
-      ["lint-list-item-spacing", false],
+      [
+        "lint-maximum-line-length",
+        false
+      ],
+      [
+        "lint-list-item-spacing",
+        false
+      ],
       "contributors",
       "github",
       "toc"
@@ -41,7 +53,7 @@
   "repository": "stormwarning/zazen-commit-types",
   "scripts": {
     "lint": "npm-run-all lint:*",
-    "lint:json": "json -f index.json -I",
+    "lint:json": "json -f *.json",
     "lint:markdown": "remark . -qo",
     "precommit": "lint-staged && npm test",
     "test": "npm run lint"
