@@ -19,13 +19,14 @@
 |   🔨  | `:hammer:`    | Updated functionality |
 |   👕  | `:shirt:`     | Code-style            |
 |   🚑  | `:ambulance:` | Hot-fix               |
+|   📦  | `:package:`   | Dependency change     |
 
 | Other |                    |                        |
 | :---: | ------------------ | ---------------------- |
-|   📦  | `:package:`        | Dependency change      |
 |   🔖  | `:bookmark:`       | New release            |
 |   🍱  | `:bento:`          | Static assets          |
 |   📱  | `:iphone:`         | Mobile-related change  |
 |   ⚙️  | `:gear:`           | Build configuration    |
 |   🚨  | `:rotating_light:` | Writing/updating tests |
 |   🚚  | `:truck:`          | Moving files           |
+|   ⏪   | `:rewind:`         | Reverting a commit     |

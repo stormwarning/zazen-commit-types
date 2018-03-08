@@ -44,6 +44,36 @@
       "title": "Hot-fix",
       "description": "A critical/time-sensitive bug fix.",
       "level": "patch"
+    },
+    ":package:": {
+      "title": "Dependency change",
+      "description": "Upgrading or downgrading dependencies.",
+      "level": "patch"
+    },
+    ":bento:": {
+      "title": "Static assets",
+      "description": "Updating static assets (e.g., images).",
+      "level": "other"
+    },
+    ":gear:": {
+      "title": "Build configuration",
+      "description": "Changes to project build settings.",
+      "level": "other"
+    },
+    ":rotating_light:": {
+      "title": "Tests",
+      "description": "Writing or updating tests.",
+      "level": "other"
+    },
+    ":truck:": {
+      "title": "Moving files",
+      "description": "Moving or renaming files.",
+      "level": "other"
+    },
+    ":rewind:": {
+      "title": "Revert",
+      "description": "Reverting a commit.",
+      "level": "other"
     }
   }
 }
