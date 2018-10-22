@@ -21,12 +21,12 @@
 |   🚑  | `:ambulance:` | Hot-fix               |
 |   📦  | `:package:`   | Dependency change     |
 
-| Other |                    |                        |
-| :---: | ------------------ | ---------------------- |
-|   🔖  | `:bookmark:`       | New release            |
-|   🍱  | `:bento:`          | Static assets          |
-|   📱  | `:iphone:`         | Mobile-related change  |
-|   ⚙️  | `:gear:`           | Build configuration    |
-|   ✅  | `:white_check_mark:` | Writing/updating tests |
-|   🚚  | `:truck:`          | Moving files           |
-|   ⏪   | `:rewind:`         | Reverting a commit     |
+| Other |                      |                        |
+| :---: | -------------------- | ---------------------- |
+|   🔖  | `:bookmark:`         | New release            |
+|   🍱  | `:bento:`            | Static assets          |
+|   📱  | `:iphone:`           | Mobile-related change  |
+|   ⚙️  | `:gear:`             | Build configuration    |
+|   ✅   | `:white_check_mark:` | Writing/updating tests |
+|   🚚  | `:truck:`            | Moving files           |
+|   ⏪   | `:rewind:`           | Reverting a commit     |
