@@ -1,9 +1,18 @@
 {
   "name": "@zazen/commit-types",
-  "version": "1.1.0",
   "description": "Commit with emoji, free of weariness and confusion",
-  "homepage": "https://github.com/stormwarning/zazen-commit-types",
+  "license": "ISC",
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
+  "homepage": "https://github.com/stormwarning/zazen-commit-types",
+  "repository": "stormwarning/zazen-commit-types",
+  "version": "1.1.0",
+  "scripts": {
+    "precommit": "lint-staged && npm test",
+    "lint": "npm-run-all lint:*",
+    "lint:json": "json -f *.json",
+    "lint:markdown": "remark . -qo",
+    "test": "npm run lint"
+  },
   "devDependencies": {
     "json": "^9.0.6",
     "npm-run-all": "^4.1.2",
@@ -14,7 +23,6 @@
     "remark-toc": "~4.0.1"
   },
   "keywords": [],
-  "license": "MIT",
   "lint-staged": {
     "index.json": [
       "json -f index.json -I",
@@ -49,13 +57,5 @@
       "strong": "*",
       "emphasis": "*"
     }
-  },
-  "repository": "stormwarning/zazen-commit-types",
-  "scripts": {
-    "lint": "npm-run-all lint:*",
-    "lint:json": "json -f *.json",
-    "lint:markdown": "remark . -qo",
-    "precommit": "lint-staged && npm test",
-    "test": "npm run lint"
   }
 }
