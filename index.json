@@ -1,78 +1,108 @@
 {
   "types": {
-    ":bomb:": {
+    "💣": {
       "title": "Breaking change",
       "description": "A backwards-incompatible change.",
+      "shortcode": ":bomb:",
+      "group": "",
       "level": "major"
     },
-    ":gift:": {
+    "🎁": {
       "title": "Features",
       "description": "A new feature.",
+      "shortcode": ":gift:",
+      "group": "added",
       "level": "minor"
     },
-    ":fire:": {
+    "🔥": {
       "title": "Code removal",
       "description": "Heavy refactoring or removal of unneeded code.",
+      "shortcode": ":fire:",
+      "group": "removed",
       "level": "minor"
     },
-    ":memo:": {
+    "📝": {
       "title": "Documentation",
       "description": "Updates to documentation.",
+      "shortcode": ":memo:",
+      "group": "",
       "level": "patch"
     },
-    ":art:": {
+    "🎨": {
       "title": "Visual styles",
       "description": "User-facing changes.",
+      "shortcode": ":art:",
+      "group": "changed",
       "level": "patch"
     },
-    ":bug:": {
+    "🐛": {
       "title": "Fixes",
       "description": "A bug fix.",
+      "shortcode": ":bug:",
+      "group": "fixed",
       "level": "patch"
     },
-    ":hammer:": {
+    "🔨": {
       "title": "Refactoring",
       "description": "General code churn; no fixes or features.",
+      "shortcode": ":hammer:",
+      "group": "changed",
       "level": "patch"
     },
-    ":shirt:": {
+    "👕": {
       "title": "Code style",
       "description": "Code formatting or updates to adhere to style convention.",
+      "shortcode": ":shirt:",
+      "group": "changed",
       "level": "patch"
     },
-    ":ambulance:": {
+    "🚑": {
       "title": "Hot-fix",
       "description": "A critical/time-sensitive bug fix.",
+      "shortcode": ":ambulance:",
+      "group": "fixed",
       "level": "patch"
     },
-    ":package:": {
+    "📦": {
       "title": "Dependency change",
       "description": "Upgrading or downgrading dependencies.",
+      "shortcode": ":package:",
+      "group": "changed",
       "level": "patch"
     },
-    ":bento:": {
+    "🍱": {
       "title": "Static assets",
       "description": "Updating static assets (e.g., images).",
+      "shortcode": ":bento:",
+      "group": "added",
       "level": "other"
     },
-    ":gear:": {
+    "⚙️": {
       "title": "Build configuration",
       "description": "Changes to project build settings.",
+      "shortcode": ":gear:",
+      "group": "",
       "level": "other"
     },
-    ":rotating_light:": {
+    "✅": {
       "title": "Tests",
       "description": "Writing or updating tests.",
+      "shortcode": ":white_check_mark:",
+      "group": "",
       "level": "other"
     },
-    ":truck:": {
+    "🚚": {
       "title": "Moving files",
       "description": "Moving or renaming files.",
+      "shortcode": ":truck:",
+      "group": "",
       "level": "other"
     },
-    ":rewind:": {
+    "⏪": {
       "title": "Revert",
       "description": "Reverting a commit.",
+      "shortcode": ":rewind:",
+      "group": "",
       "level": "other"
     }
   }

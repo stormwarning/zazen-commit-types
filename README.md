@@ -27,6 +27,6 @@
 |   🍱  | `:bento:`          | Static assets          |
 |   📱  | `:iphone:`         | Mobile-related change  |
 |   ⚙️  | `:gear:`           | Build configuration    |
-|   🚨  | `:rotating_light:` | Writing/updating tests |
+|   ✅  | `:white_check_mark:` | Writing/updating tests |
 |   🚚  | `:truck:`          | Moving files           |
 |   ⏪   | `:rewind:`         | Reverting a commit     |
